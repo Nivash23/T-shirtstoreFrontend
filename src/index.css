@@ -1,0 +1,143 @@
+*{
+  margin:0px;
+  border:0px;
+  padding:0px;
+}
+#wholecontainer{
+  width:100vw;
+  height:100vh;
+  background-color: hsl(144, 3%, 70%);
+  text-align: center;
+  padding:10px 10px 10px 10px;
+}
+#Imageuploadingbox{
+  width:250px;
+  height:250px;
+  border:1px solid black;
+  border-style: dashed;
+  margin:50px 0px 20px 650px;
+  padding: 5px 5px 5px 5px;
+}
+#uploadedimg{
+  width: 100%;
+  height:150px;
+
+}
+.Sbutinactive{
+  #selectbutcontainer{
+    display: none;
+  }
+  #outernameoffile{
+    display: block;
+  }
+}
+.Sbutactive{
+  #selectbutcontainer{
+    display: block;
+  }
+  
+}
+.Onameinactive{
+  #outernameoffile{
+    display: none;
+  }
+}
+.Onameactive{
+  #outernameoffile{
+    display: block;
+  }
+}
+#selectbut{
+  margin:10px 0px 10px 80px;
+  background-color: aliceblue;
+  width:80px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  height:20px;
+  cursor: pointer;
+}
+#printingtext{
+  outline:none;
+  position: absolute;
+  border:none;
+  margin:-120px 0px 0px -70px;
+  width:180px;
+  height:60px;
+}
+.TtoPinactive{
+  #printingtext{
+    display:none
+  }
+}
+#inputsofuser{
+  margin:20px 0px 10px 600px;
+}
+.userenteredinput{
+  display: flex;
+  margin-top: 10px;
+}
+.userenteredinput input{
+  width: 200px;
+  height:30px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+#typeoftshirt{
+  display: flex;
+  margin-top: 20px;
+}
+#types{
+  display: flex;
+}
+.radios{
+  display: flex;
+  margin:5px 20px 0px 20px;
+}
+
+@media(min-width:450px) and (max-width:600px)
+{
+  #Imageuploadingbox{
+   margin-left: 100px;
+  }
+  #printingtext{
+    margin-left: -120px;
+  }
+  #inputsofuser{
+    margin-left: 70px;
+  }
+  #outernameoffile{
+    margin-left: -120px;
+  }
+}
+@media(min-width:350px) and (max-width:450px)
+{
+  #Imageuploadingbox{
+   margin-left: 20px;
+  }
+  #printingtext{
+    margin-left: -130px;
+  }
+  #inputsofuser{
+    margin-left: 0px;
+  }
+  #outernameoffile{
+    margin-left: -150px;
+  }
+}
+@media(min-width:600px) and (max-width:850px)
+{
+  #Imageuploadingbox{
+   margin-left: 300px;
+  }
+  #printingtext{
+    margin-left: -80px;
+  }
+  #inputsofuser{
+    margin-left: 270px;
+  }
+  #outernameoffile{
+    margin-left: -20px;
+  }
+}
